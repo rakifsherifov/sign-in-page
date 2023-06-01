@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6c91df;
+}
+.general{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 450px;
+    margin: auto;
+    background-color: #fff;
+    padding: 0 40px 0 40px ;
+    border-radius: 6px;
+    
+}
+#one h2{
+    padding: 35px 0 20px 0;
+
+}
+#one form h4{
+    margin-bottom: 7px;
+}
+#one form .input-password{
+    margin-top: 20px;
+}
+#one form input{
+    height: 50px;
+    width: 100%;
+    border-radius: 6px;
+    border-color: rgb(220, 219, 219);
+    outline-color: black;
+    padding-left: 25px;
+    font-size: 15px;
+}
+form .one-checkbox{
+   max-width: 15px;
+}
+
+form span{
+    position: absolute;
+    top: 268px;
+    left: 65px;
+}
+#one form a{
+    text-decoration: none;
+    position: absolute;
+    top: 268px;
+    left: 357px;
+    color: blue;
+}
+
+#two button:first-child{
+    width: 100%;
+    height: 55px;
+    background-color: #0796d7;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 52px;
+}
+#two button:nth-child(2){
+    width: 45%;
+    height: 35px;
+    margin-right: 33px;
+    margin-bottom: 35px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #3161a1;
+
+}
+#two button:nth-child(3){
+    width: 45%;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #00a9f3;
+}
